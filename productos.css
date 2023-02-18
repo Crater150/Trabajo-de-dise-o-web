@@ -6,6 +6,8 @@
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
+       border: 1px solid red;
+
 }
 
 body {
@@ -75,8 +77,7 @@ padding:  5px 0 5px 0;
 
 
 .carrito  {
-    position: absolute;
-    right: 50px;   
+    position: fixed
 
 }
 
@@ -88,14 +89,13 @@ padding:  5px 0 5px 0;
     align-items: center;
     height: 104px;
     gap: 34px;
-
 }
 
 .logo {
     width: 80px;
 }
 
-.pp {
+.nav {
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
@@ -104,7 +104,7 @@ padding:  5px 0 5px 0;
     padding: 1px 0 1px 0;
 }
 
-.pp a {
+.nav a {
     color: black;
 }
 

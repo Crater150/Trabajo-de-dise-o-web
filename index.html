@@ -14,7 +14,7 @@
         <nav class="navbar">
             <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
             <input type="checkbox" id="toggle-menu">
-            <ul class="pp">
+            <ul class="nav">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#productos">Productos</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
@@ -25,10 +25,14 @@
     </header>
 <section class="hero"> 
 <div class="registro">
+    <div class="completar">
 <input type="email" name="email" id="email" placeholder="Email">
 <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" >
+</div>
+<div class="boton_registro">
 <a class="inicio_sesion" href="#">Iniciar sesion</a>
 <a class="registrate" href="registrate.html">resgistrate</a>
+</div>
 </div>
 
     <div class="slide">
@@ -70,14 +74,14 @@
 </section>
 
 <main>
-    <section class="productos" id="productos">
+    <section class="productos" id="productos">  
         <h1 class="titulo_productos">Productos</h1>
 
     <div class="catalogo">
-        <a href="ver.html"><img class="catalogo-img" src="./pilusos-600x600.jpg" alt=""><h3 class="tipos_gorros">Pilusos</h3></a>
+        <a href="pilusos.html"><img class="catalogo-img" src="./pilusos-600x600.jpg" alt=""><h3 class="tipos_gorros">Pilusos</h3></a>
         <a href="beanies.html"><img class="catalogo-img" src="./beanies-600x600.jpg" alt=""><h3 class="tipos_gorros">Beanies</h3></a>
         <a href="gorras.html"><img class="catalogo-img" src="./categoria-gorras-600x600.jpg" alt=""><h3 class="tipos_gorros">Gorras</h3></a>
-        <a href="Todo.html"><img class="catalogo-img" src="./ver-mas-productos.jpg" alt="todos los productos"><h3 class="tipos_gorros">Ver todos los productos</h3>
+        <a href="todos.html"><img class="catalogo-img" src="./ver-mas-productos.jpg" alt="todos los productos"><h3 class="tipos_gorros">Ver todos los productos</h3>
 </a>
  </div>
 </section>
@@ -87,21 +91,19 @@
         <h1>Nosotros</h1>
 <img class="img_nosotros" src="./charlesdeluvio-Lks7vei-eAg-unsplash.jpg" alt="">    
 </div>
-<div>
-    <p >Nacimos a finales del 2014 a raíz de que amamos y somos fanaticos de las gorras. En CapShop ayudamos a conectarte con la gorra que buscabas o crear la que imaginabas y querés llevar puesta.
- Nos dedicamos a la comercialización de gorras, gorros y accesorios textiles de distintas marcas, y también de nuestra marca propia de gorras y gorros lisos “BlankCap” con la que ofrecemos el servicio de personalización para amantes de las gorras, emprendedores, negocios, empresas, marcas, y eventos.
-         Tenemos un gran surtido de productos, entre los cuales encontrarás gorras, gorros, guantes, bufandas, accesorios en general, y prendas textiles, todo con stock permanente para la entrega inmediata y despachos diarios a todo el país.
-        Contamos con un servicio de personalización a medida que tiene la finalidad de ayudarte a materializar aquella gorra que querés lucir, y / o complir con los objetivos comunicativos y comerciales de tu negocio, marca o empresa, con un gran nivel de calidad, prolijidad en la aplicación, y experiencia, cumpliendo siempre con las formas y tiempos de entrega.
-        Entre las técnicas para la personalización de nuestros productos contamos con bordados, estampería impresa y de corte, impresión digital, transfer, serigrafía, grabado laser, entre otras.
-        Podés chequear los productos disponibles en esta website, y también podés pedir el catálogo de productos a nuestro Whatsapp por donde con gusto te asesoraremos: 3513099299
-        Te invitamos a conocer nuestro showroom en Córdoba capital, ubicado en Vieytes 1404 (esq. Luis Agote), en el horario de lunes a viernes de 16 a 21 hs, y sábados de 9 a 14 hs.
- Podés ver nuestros productos y cómo trabajamos en nuestras redes sociales @capshop.com.ar
+<div class="text_nosotros">
+    <p >Nacimos a finales del 2014 a raíz de que amamos y somos fanaticos de las gorras.
+        Nos dedicamos a la comercialización de gorras.
+        Todo con stock permanente para la entrega inmediata y despachos diarios a todo el país.
+        Contamos con un servicio de personalización a medida que tiene la finalidad de ayudarte a materializar aquella gorra que querés lucir
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                , y también de nuestra marca propia de gorras y gorros lisos “BlankCap” con la que ofrecemos el servicio de personalización para amantes de las gorras, emprendedores, negocios, empresas, marcas, y eventos.
         </p>
 </div>
 </section>
 
 <section class="Beneficios" id="beneficios">
- <h1>BENEFICIO POR ELEGIRNOS</h1>
+ <h1 class="titulo_beneficios">BENEFICIO POR ELEGIRNOS</h1>
 <div class="grid-beneficios">
     <div class="beneficio_grid">
     <i class="fa-solid fa-truck-fast"></i>
