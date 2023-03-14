@@ -19,8 +19,11 @@ body{
     background: #ffbf19;
     margin: auto;
     margin-top: 50px;
+    position: relative;
+    top: -14px;
 
 }
+
 
     .titulo {
         text-align: center;      
