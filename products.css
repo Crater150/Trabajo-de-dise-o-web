@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+    header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gold;
+    }
+    
+    .nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: large;
+  }
+    
+    .logo{
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+        margin: 4px 0;
+    }
+    .titulo {
+        font-size: xx-large;
+    color: black;
+    place-self: center;
+    font-weight: 600;                                     
+    }
+    .principio{
+        display: flex;
+        position: relative;
+        left: -63px;
+    width: 150px;
+    }
+
+.opciones{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.nav a {
+    color: black;
+}
+.nav a:hover {
+    color: white;
+}
+
+.opciones a {
+    color: black;
+}
+.opciones a:hover {
+    color: white;
+}
+    
+main{
+        width: 70%;
+        margin: 6px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 22px;
+    }
+    
+    .img-item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+    .caja{
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;    
+}
+
+.caja p {
+    margin: 8px;
+}
+
+
+.caja img:hover {
+    transform: scale(1.2);
+}
+
+.mover {
+    position: fixed;
+    left: 30px;
+    top: 200px;
+    background-color: #8a2be2bd;
+    border-radius: 40px;
+    padding: 25px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.ss {
+    font-size: 12px;
+    border: solid gold;
+    border-radius: 11px;
+    cursor: pointer;
+}
+  
+footer {
+    display: flex;
+    color: gold;
+    background: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+}
+
+
+                                                                    /*Responsive Design*/
+
+@media (max-width: 1000px) {
+    .mover {
+        padding: 16px;
+     left: 5px;
+        font-size: small;
+    }
+    }
+    
+    @media (max-width: 800px) {
+    .nav {
+        font-size: medium;
+    }
+    .opciones{
+        font-size: unset;
+    }
+}
+
+@media (max-width: 374px) {
+footer {
+    font-size: x-small;
+}
+.mover  {
+    padding: 9px;
+}
+}

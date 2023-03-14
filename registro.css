@@ -2,11 +2,16 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+        border: 1px solid red;
+
 }
 
-body {
+body{
     background-image: url(./wp2853859.jpg);
-}
+    background-size: cover;    
+    background-position-x: center;
+
+    }
 
 .container {
     width: 500px;
@@ -74,7 +79,15 @@ input:focus {
     color: #fff;
 }
 
-@media (max-width: 675px) {
- 
 
+
+@media (max-width: 560px) {
+
+.container {
+    width: 282px;
 }
+.titulo{    
+    font-size: 40px;
+}
+}
+
