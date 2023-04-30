@@ -12,7 +12,7 @@
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
-   /*border: 1px solid red;*/
+  /* border: 1px solid red;*/
    font-family: 'Merriweather', serif;
 }
 
@@ -68,6 +68,7 @@ background-color:  rgba(0, 0, 0, 0.85);
     padding-top: 9px;
 }
 
+
 .portada {
     margin-top: 23px;
 }
@@ -106,7 +107,7 @@ background-color:  rgba(0, 0, 0, 0.85);
     height: 20px;
 }
 
-.catalogo{
+.card{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -219,6 +220,7 @@ grid-area: 1 / 1 / 2 / 2;
 
 }
 
+
 .fa-thumbs-up {
     font-size: 80px;}
 
@@ -227,6 +229,10 @@ grid-area: 1 / 1 / 2 / 2;
 
 .fa-truck-fast {
     font-size: 80px;
+}
+
+.ultimoGrid{
+    margin-top: 15px;
 }
 
 .beneficio_grid {
@@ -286,7 +292,7 @@ padding: 0 5px;
     
     }
 
-@media (max-width: 880px) {
+@media (max-width: 1000px) {
     #slide-1:checked ~ .control-1,
     #slide-2:checked ~ .control-2,
     #slide-3:checked ~ .control-3 {
@@ -331,6 +337,9 @@ display: flex;
  footer {
     flex-direction: column;
 }
+.completar {
+    width: 221px;
+}
 }
 
 @media (max-width: 675px){
@@ -348,6 +357,7 @@ max-width: 300px;
 .titulo_beneficios{
     font-size: 25px;
 }
+
 }
 
 @media (max-width: 500px) {
